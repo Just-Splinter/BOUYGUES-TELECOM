@@ -175,5 +175,177 @@
       }
     ]
   },
-      "clickAndCollect" : {"resultCount":2,"items":[{"type":"ListeBoutiqueItem","codeEnseigne":"993","codePointVente":"2134","activitesBoutique":{"cncActif":true,"maxCnC":135,"maxCnC_sav":120,"maxCnC_vente":15,"webActif":true},"adresse":{"adresseLigne1":"2 AVENUE DE L EUROPE","adresseLigne2":"CENTRE COMMERCIAL VELIZY 2 RDC ","codePostal":"78140","localisation":{"latitude":48.78016,"longitude":2.21973},"ville":"VELIZY VILLACOUBLAY"},"contact":{"email":"Velizy2CC-0755@rcbt.fr","fax":"0233886952","telephone1":"0233886950"},"distanceLocalisation":2314,"entiteJuridique":{"siren":"423032598","typeEntiteReseauDistribution":"CS"},"estPetitBackOffice":true,"horairesFermetureEx":[],"horairesOuvertureDuJour":{"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},"horairesOuvertureEx":[],"horairesOuvertureHebdomadaire":[{"noJour":1,"plagesHoraire":[{"debut":"04:00","fin":"11:00"},{"debut":"14:00","fin":"21:00"}]},{"noJour":2,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},{"noJour":3,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},{"noJour":4,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},{"noJour":5,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},{"noJour":6,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]}],"libelleEnseigneCommerciale":"TEST","nom":"CC VELIZY","proprietesERD":[{"id":"1","nom":"petit_back_office","type":"BOOLEEN","valeurBool":true}],"seuilsProduits":[{"gencode":"3526353093638","seuilCnC":1},{"gencode":"6901443391608","seuilCnC":1},{"gencode":"3526353101098","seuilCnC":1},{"gencode":"3526356055329","seuilCnC":1}],"typeEntiteReseauDistribution":"CS","gencodes":["3526353093638","6901443391608","3526353101098","3526356055329"]},{"type":"ListeBoutiqueItem","codeEnseigne":"993","codePointVente":"2413","activitesBoutique":{"cncActif":true,"maxCnC":135,"maxCnC_sav":120,"maxCnC_vente":15,"webActif":true},"adresse":{"adresseLigne1":"12 AVENUE DE LA VICTOIRE","adresseLigne2":" ","codePostal":"59400","localisation":{"latitude":48.8912,"longitude":2.23704},"ville":"CAMBRAI"},"contact":{"email":"Cambrai-01B9@rcbt.fr","fax":"0233886952","telephone1":"0233886950"},"distanceLocalisation":11983,"entiteJuridique":{"siren":"423032598","typeEntiteReseauDistribution":"CS"},"estPetitBackOffice":false,"horairesFermetureEx":[],"horairesOuvertureDuJour":{"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},"horairesOuvertureEx":[],"horairesOuvertureHebdomadaire":[{"noJour":1,"plagesHoraire":[{"debut":"04:00","fin":"11:00"},{"debut":"14:00","fin":"21:00"}]},{"noJour":2,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},{"noJour":3,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},{"noJour":4,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},{"noJour":5,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]},{"noJour":6,"plagesHoraire":[{"debut":"10:00","fin":"19:00"}]}],"libelleEnseigneCommerciale":"TEST","nom":"CAMBRAI","proprietesERD":[{"id":"1","nom":"petit_back_office","type":"BOOLEEN","valeurBool":false}],"seuilsProduits":[{"gencode":"3526353104136","seuilCnC":1},{"gencode":"3526353104136","seuilCnC":1}],"typeEntiteReseauDistribution":"CS","gencodes":["3526353104136","3526353104136"]}]}
+  "clickAndCollect": {
+    "resultCount": 2,
+    "items": [
+      {
+        "type": "ListeBoutiqueItem",
+        "codeEnseigne": "993",
+        "codePointVente": "2134",
+        "activitesBoutique": {
+          "cncActif": true,
+          "maxCnC": 135,
+          "maxCnC_sav": 120,
+          "maxCnC_vente": 15,
+          "webActif": true
+        },
+        "adresse": {
+          "adresseLigne1": "2 AVENUE DE L EUROPE",
+          "adresseLigne2": "CENTRE COMMERCIAL VELIZY 2 RDC ",
+          "codePostal": "78140",
+          "localisation": { "latitude": 48.78016, "longitude": 2.21973 },
+          "ville": "VELIZY VILLACOUBLAY"
+        },
+        "contact": {
+          "email": "Velizy2CC-0755@rcbt.fr",
+          "fax": "0233886952",
+          "telephone1": "0233886950"
+        },
+        "distanceLocalisation": 2314,
+        "entiteJuridique": {
+          "siren": "423032598",
+          "typeEntiteReseauDistribution": "CS"
+        },
+        "estPetitBackOffice": true,
+        "horairesFermetureEx": [],
+        "horairesOuvertureDuJour": {
+          "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+        },
+        "horairesOuvertureEx": [],
+        "horairesOuvertureHebdomadaire": [
+          {
+            "noJour": 1,
+            "plagesHoraire": [
+              { "debut": "04:00", "fin": "11:00" },
+              { "debut": "14:00", "fin": "21:00" }
+            ]
+          },
+          {
+            "noJour": 2,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          },
+          {
+            "noJour": 3,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          },
+          {
+            "noJour": 4,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          },
+          {
+            "noJour": 5,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          },
+          {
+            "noJour": 6,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          }
+        ],
+        "libelleEnseigneCommerciale": "TEST",
+        "nom": "CC VELIZY",
+        "proprietesERD": [
+          {
+            "id": "1",
+            "nom": "petit_back_office",
+            "type": "BOOLEEN",
+            "valeurBool": true
+          }
+        ],
+        "seuilsProduits": [
+          { "gencode": "3526353093638", "seuilCnC": 1 },
+          { "gencode": "6901443391608", "seuilCnC": 1 },
+          { "gencode": "3526353101098", "seuilCnC": 1 },
+          { "gencode": "3526356055329", "seuilCnC": 1 }
+        ],
+        "typeEntiteReseauDistribution": "CS",
+        "gencodes": [
+          "3526353093638",
+          "6901443391608",
+          "3526353101098",
+          "3526356055329"
+        ]
+      },
+      {
+        "type": "ListeBoutiqueItem",
+        "codeEnseigne": "993",
+        "codePointVente": "2413",
+        "activitesBoutique": {
+          "cncActif": true,
+          "maxCnC": 135,
+          "maxCnC_sav": 120,
+          "maxCnC_vente": 15,
+          "webActif": true
+        },
+        "adresse": {
+          "adresseLigne1": "12 AVENUE DE LA VICTOIRE",
+          "adresseLigne2": " ",
+          "codePostal": "59400",
+          "localisation": { "latitude": 48.8912, "longitude": 2.23704 },
+          "ville": "CAMBRAI"
+        },
+        "contact": {
+          "email": "Cambrai-01B9@rcbt.fr",
+          "fax": "0233886952",
+          "telephone1": "0233886950"
+        },
+        "distanceLocalisation": 11983,
+        "entiteJuridique": {
+          "siren": "423032598",
+          "typeEntiteReseauDistribution": "CS"
+        },
+        "estPetitBackOffice": false,
+        "horairesFermetureEx": [],
+        "horairesOuvertureDuJour": {
+          "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+        },
+        "horairesOuvertureEx": [],
+        "horairesOuvertureHebdomadaire": [
+          {
+            "noJour": 1,
+            "plagesHoraire": [
+              { "debut": "04:00", "fin": "11:00" },
+              { "debut": "14:00", "fin": "21:00" }
+            ]
+          },
+          {
+            "noJour": 2,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          },
+          {
+            "noJour": 3,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          },
+          {
+            "noJour": 4,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          },
+          {
+            "noJour": 5,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          },
+          {
+            "noJour": 6,
+            "plagesHoraire": [{ "debut": "10:00", "fin": "19:00" }]
+          }
+        ],
+        "libelleEnseigneCommerciale": "TEST",
+        "nom": "CAMBRAI",
+        "proprietesERD": [
+          {
+            "id": "1",
+            "nom": "petit_back_office",
+            "type": "BOOLEEN",
+            "valeurBool": false
+          }
+        ],
+        "seuilsProduits": [
+          { "gencode": "3526353104136", "seuilCnC": 1 },
+          { "gencode": "3526353104136", "seuilCnC": 1 }
+        ],
+        "typeEntiteReseauDistribution": "CS",
+        "gencodes": ["3526353104136", "3526353104136"]
+      }
+    ]
+  }
 }
+
