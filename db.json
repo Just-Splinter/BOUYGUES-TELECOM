@@ -1,5 +1,178 @@
 {
-   "ventes" : {
-        "produits" :{"type_id": ["box","box","box","box","sim_sav","box","box","box","box","box","box","box"],"priorite_sav": ["7","9","11","10","8","1","6","4","2","5","3"],"name": ["Kit de pru00eat - Clu00e9 4G - Internet Garanti","Kit de pru00eat - Clu00e9 4G - Internet Garanti","Kit de pru00eat - Clu00e9 4G - Internet Garanti","Kit de pru00eat - Clu00e9 4G - Internet Garanti","Carte SIM Continuite de service","Kit de pru00eat - Clu00e9 4G - Internet Garanti","Kit de pru00eat - Clu00e9 4G - Internet Garanti","Kit de pru00eat - Clu00e9 4G - Internet Garanti","Kit de pru00eat - Clu00e9 4G - Internet Garanti","Kit de pru00eat - Clu00e9 4G - Internet Garanti","Kit de pru00eat - Clu00e9 4G - Internet Garanti","Kit de pru00eat - Clu00e9 4G - Internet Garanti"],"gencode": ["3526353101098","3526353099371","3526353096905","3526353093638","3526356055329","6901443229413","3526353104136","6901443391608","4894461936956","6975508990143","6974889940044","3526353104808"],"in_stock": ["false","false","false","false","true","false","true","false","true","true","true","true"]}   
-   }
+  "produits": {
+    "type_id": [
+      "box",
+      "box",
+      "box",
+      "box",
+      "sim_sav",
+      "box",
+      "box",
+      "box",
+      "box",
+      "box",
+      "box",
+      "box"
+    ],
+    "priorite_sav": ["7", "9", "11", "10", "8", "1", "6", "4", "2", "5", "3"],
+    "name": [
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Carte SIM Continuite de service",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti",
+      "Kit de pru00eat - Clu00e9 4G - Internet Garanti"
+    ],
+    "gencode": [
+      "3526353101098",
+      "3526353099371",
+      "3526353096905",
+      "3526353093638",
+      "3526356055329",
+      "6901443229413",
+      "3526353104136",
+      "6901443391608",
+      "4894461936956",
+      "6975508990143",
+      "6974889940044",
+      "3526353104808"
+    ],
+    "in_stock": [
+      "false",
+      "false",
+      "false",
+      "false",
+      "true",
+      "false",
+      "true",
+      "false",
+      "true",
+      "true",
+      "true",
+      "true"
+    ]
+  },
+  "contrats-signes": {
+    "_links": {
+      "self": {
+        "href": "/personnes/800002224713/contrats-signes"
+      }
+    },
+    "resultsCount": 1,
+    "items": [
+      {
+        "_links": {
+          "notificationsOffres": {
+            "href": "/contrats/610000364841/notifications-offres"
+          },
+          "eligibiliteResiliation": {
+            "href": "/contrats/610000364841/eligibilite-resiliation-contrat"
+          },
+          "tickets": {
+            "href": "/contrats/610000364841/tickets"
+          },
+          "titulaire": {
+            "href": "/personnes/800002224713"
+          },
+          "compteFacturation": {
+            "href": "/comptes-facturation/60000364841"
+          },
+          "notificationsCommerciales": {
+            "href": "/contrats/610000364841/notifications-commerciales"
+          },
+          "eligibiliteDeblocageHFRDM": {
+            "href": "/contrats/610000364841/eligibilites-deblocage-hf-rdm"
+          },
+          "suiviConsoFixe": {
+            "href": "/contrats/610000364841/suivi-conso-fixe"
+          },
+          "eligibiliteReplaceSim": {
+            "href": "/contrats/610000364841/eligibilite-changement-sim"
+          },
+          "incidentsGlobaux": {
+            "href": "/contrats/610000364841/ig"
+          },
+          "documentsSAV": {
+            "href": "/contrats/610000364841/documents-sav"
+          },
+          "lignes": {
+            "href": "/contrats/610000364841/lignes"
+          },
+          "eligibiliteDeblocageHFFREUR": {
+            "href": "/contrats/610000364841/eligibilites-deblocage-hf-fr-eur"
+          },
+          "equipementsFixes": {
+            "href": "/contrats/610000364841/equipements-fixes"
+          },
+          "options": {
+            "href": "/contrats/610000364841/options"
+          },
+          "self": {
+            "href": "/contrats/610000364841"
+          },
+          "eligibiliteGalet4G": {
+            "href": "/contrats/610000364841/action/galet-4g"
+          }
+        },
+        "_actions": {
+          "tarifsHorsForfait": {
+            "action": "/contrats/610000364841/tarifs-hors-forfait",
+            "type": "application/json",
+            "method": "POST"
+          },
+          "commandeResiliationRestitution": {
+            "action": "/contrats/610000364841/commande-resiliation-restitution",
+            "type": "application/json",
+            "method": "POST"
+          },
+          "demandeRestrictionLigne": {
+            "action": "/demandes-gestion-client/restriction-ligne",
+            "type": "application/json",
+            "method": "POST"
+          }
+        },
+        "abonnement": {
+          "_links": {
+            "offre": {
+              "href": "/referentiel/offres/655805"
+            },
+            "detailsAbonnement": {
+              "href": "/contrats/610000364841/abonnement"
+            }
+          },
+          "dateActivation": "2023-12-26T23:17:57.000+01:00",
+          "idOffre": "655805",
+          "libelle": "Bbox Ultym Internet-TV-Téléphonie en dégroupage total à 41,99 euros/mois, engagement 12 mois",
+          "offreCompatibleBonus": false,
+          "offrePremium": true,
+          "offreTokyo": false
+        },
+        "dateChangementStatut": "2023-12-25T04:22:29.000+01:00",
+        "dateCreation": "2023-12-25T04:22:29.000+01:00",
+        "enAttenteBasculeCommerciale": false,
+        "id": "610000364841",
+        "idPfs": "610024266505",
+        "ligneMarche": "FAI",
+        "numeroTel": "+33981787852",
+        "partitionSic": 4,
+        "statut": "ACTIF",
+        "typeLigne": "FIXE",
+        "utilisateur": {
+          "_links": {
+            "self": {
+              "href": "/personnes/800002224713"
+            }
+          },
+          "libelleProfilDroits": "Accès titulaire",
+          "profilDroits": "1"
+        }
+      }
+    ]
+  }
 }
